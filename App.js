@@ -18,6 +18,8 @@ const instructions = Platform.select({
     'Cmd+D or shake for dev menu',
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
+    windows: 'Press Ctrl+R to reload,\n' +
+    'Shift+F10 or shake for dev menu'
 });
 
 export default class App extends Component<{}> {
